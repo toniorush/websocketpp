@@ -1697,7 +1697,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/include/;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/usr/local/lib/boost_1_51_0/,
+				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -1711,7 +1714,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/include/;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/usr/local/lib/boost_1_51_0/,
+				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				SDKROOT = macosx;
 			};
